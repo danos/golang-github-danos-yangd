@@ -1,0 +1,32 @@
+Source: golang-github-danos-yangd
+Section: devel
+Priority: extra
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Build-Depends: debhelper (>= 9),
+ dh-golang (>= 1.18),
+ golang (>= 1.6),
+ golang-dbus-dev,
+ golang-github-danos-yang-dev,
+ golang-github-jsouthworth-objtree-dev
+Standards-Version: 3.9.7
+
+Package: golang-github-danos-yangd-dev
+Architecture: all
+Depends: ${misc:Depends},
+ golang-dbus-dev
+Built-Using: ${misc:Built-Using}
+Description: yangd library
+ Golang yangd library
+ .
+ This package contains the source.
+
+Package: golang-github-danos-yangd-client-dev
+Architecture: all
+Depends: ${misc:Depends},
+ golang-github-danos-yang-dev,
+ golang-github-jsouthworth-objtree-dev
+Built-Using: ${misc:Built-Using}
+Description: yangd client library
+ Golang yangd client library
+ .
+ This package contains the source.
