@@ -1,3 +1,10 @@
+golang-github-danos-yangd (2.7) unstable; urgency=medium
+
+  [ William Ivory ]
+  * Fix yangd build for Bullseye
+
+ -- Paul Carson <paul.carson@intl.att.com>  Thu, 01 Jul 2021 14:02:01 +0100
+
 golang-github-danos-yangd (2.6) unstable; urgency=medium
 
   * DANOS Import Master
